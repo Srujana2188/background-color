@@ -1,0 +1,43 @@
+body {
+height:100vh;
+display:flex;
+justify-content: center;
+align-items: center;
+background-color: #ffffff;
+}
+
+.container {
+    text-align: center;
+}
+
+.container h3 {
+background-color: rgb(248, 193, 138);
+color:rgb(255, 30, 30);
+padding: 10px;
+margin: 10px;
+border-radius: 10px;
+}
+.color {
+    font-weight:bold;
+    font-size:20px;
+    color:aqua;
+}
+.btn{
+    font-weight:bold;
+    background-color: transparent;
+    padding:5px;
+    cursor: pointer;
+    border-radius:5px;
+    background-color:aquamarine;
+}
+.btn:hover {
+    font-size:5px;
+    font-weight:bold;
+    padding:7px;
+    cursor:pointer;
+    color:rgb(245, 5, 5);
+    background-color: azure;
+    transition:all 0.3;
+}
+
+
